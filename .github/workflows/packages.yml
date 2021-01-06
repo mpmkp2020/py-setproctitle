@@ -42,6 +42,7 @@ jobs:
             dist/*.tar.gz
             dist/*-manylinux1_i686.whl
             dist/*-manylinux1_x86_64.whl
+            dist/*-manylinux2014_aarch64.whl
 
   build-windows:
     name: Build Windows packages
